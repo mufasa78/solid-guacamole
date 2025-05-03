@@ -1,0 +1,129 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Dataset Fix Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #333; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .ok { color: green; }
+            .fixed { color: blue; }
+            .error { color: red; }
+        </style>
+    </head>
+    <body>
+        <h1>Dataset Fix Report</h1>
+        <p>Generated on: 2025-05-03 11:34:59</p>
+        <table>
+            <tr>
+                <th>File</th>
+                <th>Status</th>
+                <th>Records</th>
+                <th>Output File</th>
+                <th>Message</th>
+            </tr>
+    
+            <tr>
+                <td>datasets\books.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>10000</td>
+                <td>datasets\books_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\books_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\books_transformed.csv</td>
+                <td class="ok">OK</td>
+                <td>10000</td>
+                <td>-</td>
+                <td>Dataset already has 'text' and 'label' columns</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\books_with_labels.csv</td>
+                <td class="ok">OK</td>
+                <td>10000</td>
+                <td>-</td>
+                <td>Dataset already has 'text' and 'label' columns</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\book_tags.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>999912</td>
+                <td>datasets\book_tags_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\book_tags_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\crosslingual_literary.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>500</td>
+                <td>datasets\crosslingual_literary_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\crosslingual_literary_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\expanded_novels.csv</td>
+                <td class="ok">OK</td>
+                <td>24</td>
+                <td>-</td>
+                <td>Dataset already has 'text' and 'label' columns</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\novels_0.1.4.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>21831</td>
+                <td>datasets\novels_0.1.4_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\novels_0.1.4_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\ratings.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>981756</td>
+                <td>datasets\ratings_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\ratings_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\tags.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>34252</td>
+                <td>datasets\tags_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\tags_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\tag_label_mapping.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>8</td>
+                <td>datasets\tag_label_mapping_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\tag_label_mapping_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\tag_mapping.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>95</td>
+                <td>datasets\tag_mapping_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\tag_mapping_fixed.csv</td>
+            </tr>
+        
+            <tr>
+                <td>datasets\to_read.csv</td>
+                <td class="fixed">FIXED</td>
+                <td>912705</td>
+                <td>datasets\to_read_fixed.csv</td>
+                <td>Fixed dataset saved to datasets\to_read_fixed.csv</td>
+            </tr>
+        
+        </table>
+    </body>
+    </html>
+    
