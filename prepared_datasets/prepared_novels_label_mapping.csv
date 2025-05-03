@@ -1,0 +1,36 @@
+label,label_id
+action,0
+adult,1
+adventure,2
+comedy,3
+drama,4
+ecchi,5
+fantasy,6
+gender bender,7
+harem,8
+historical,9
+horror,10
+josei,11
+martial arts,12
+mature,13
+mecha,14
+mystery,15
+psychological,16
+romance,17
+school life,18
+sci-fi,19
+seinen,20
+shoujo,21
+shoujo ai,22
+shounen,23
+shounen ai,24
+slice of life,25
+smut,26
+sports,27
+supernatural,28
+tragedy,29
+wuxia,30
+xianxia,31
+xuanhuan,32
+yaoi,33
+yuri,34
